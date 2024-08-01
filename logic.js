@@ -1,7 +1,7 @@
 var playing = false
 var score
 var trialsleft
-var fruits = ['apple-min','banana-min','cherry-min']
+var fruits = ['apple','banana','cherry','pear','papaya','melon']
 var step
 
 // Background music
@@ -169,7 +169,7 @@ $(function(){
     }
 
     function chooseFruit(){
-        $("#fruit1").attr('src','images/' + fruits[Math.round(3 * Math.random())] + '.png')
+        $("#fruit1").attr('src','images/' + fruits[Math.round(fruits.length * Math.random())] + '.png')
     }
     
     function stopFruit() {
