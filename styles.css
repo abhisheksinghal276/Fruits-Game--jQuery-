@@ -139,4 +139,7 @@ header {
 .fruit {
   display: none;
   position: absolute;
+}
+.fruit:hover {
+  cursor: crosshair;
 }/*# sourceMappingURL=styles.css.map */
